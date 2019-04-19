@@ -45,7 +45,7 @@ public class WSNote {
 		Note noteTrouve = null;
 		
 		while(!trouve || indice < listeNotes.size()) {
-			// une modif
+			// une modification
 			if(listeNotes.get(indice).getId() == id) {
 				noteTrouve = listeNotes.get(indice);
 				noteTrouve.setContenu(paramContenu);
